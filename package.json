@@ -1,6 +1,6 @@
 {
   "name": "clamshell",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ClamD Simulator",
   "keywords": ["clamd", "clamav", "local", "development"],
   "license" : "BSD-3-Clause",
