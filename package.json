@@ -16,12 +16,10 @@
   "engines": {
     "node": ">=0.10"
   },
-  "main": "./clamshell.js",
   "bin": {
     "clamshell": "./clamshell.js"
   },
   "scripts": {
-    "start": "node ./clamshell.js",
 		"test": "jshint *.js; eslint *.js"
 	}
 }

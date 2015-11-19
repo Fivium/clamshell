@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 /*
  * clamshell.js: Clamshell, the Clamd simulator
  *
