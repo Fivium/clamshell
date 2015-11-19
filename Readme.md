@@ -31,7 +31,9 @@ npm install -g clamshell
 
 ## TODO
 - Implement all clamd commands: http://linux.die.net/man/8/clamd
+- Sort out the stream port allocation to make it actually work for concurrent streams
 - Look at adding more options to the virus-scanner.js
  - AVG backend: http://faqbay.com/faq/how-use-avg-command-line-scan
  - Prompt on command line for return value?
 - Support scanning of buffered data better (currently stream-server sets the scan message for every data chunk passed in)
+- Add ability to override config via command startup args, e.g. `$ clamshell --port=1234 --streamPortRange=1000:1010`
