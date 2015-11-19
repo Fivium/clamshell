@@ -1,5 +1,5 @@
 {
-  "name": "Clamshell",
+  "name": "clamshell",
   "version": "1.0.0",
   "description": "ClamD Simulator",
   "keywords": ["clamd", "clamav", "local", "development"],
