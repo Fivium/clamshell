@@ -1,0 +1,27 @@
+{
+  "name": "Clamshell",
+  "version": "1.0.0",
+  "description": "ClamD Simulator",
+  "keywords": ["clamd", "clamav", "local", "development"],
+  "license" : "BSD-3-Clause",
+  "author": {
+    "name": "Nick Palmer",
+    "email": "nick.palmer@fivium.co.uk",
+    "url": "http://fivium.co.uk/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fivium/clamshell"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "./clamshell.js",
+  "bin": {
+    "clamshell": "./clamshell.js"
+  },
+  "scripts": {
+    "start": "node ./clamshell.js",
+		"test": "jshint *.js; eslint *.js"
+	}
+}
